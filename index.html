@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pig game</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="player player--1 player--active">
+        <h2 class="name" id="name--1">Player 1</h2>
+        <p class="score" id="score--1">43</p>
+        <div class="current">
+          <p class="current-label">current</p>
+          <p class="current-score" id="current--score">0</p>
+        </div>
+      </section>
+      <section class="player player--2">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score" id="score--1">24</p>
+        <div class="current">
+          <p class="current-label">current</p>
+          <p class="current-score" id="current--score">0</p>
+        </div>
+      </section>
+
+      <img src="images/dice-5.png" alt="Playing dice" class="dice" />
+      <button class="btn btn--new">
+        <i class="fas fa-arrows-rotate"></i> new game
+      </button>
+      <button class="btn btn--roll">
+        <i class="fas fa-dice"></i> roll dice
+      </button>
+      <button class="btn btn--hold">
+        <i class="fas fa-download"></i> hold
+      </button>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
