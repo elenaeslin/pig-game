@@ -74,11 +74,6 @@ main {
   font-size: 3.5rem;
 }
 
-.dice {
-  position: absolute;
-  display: none;
-}
-
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
 }
@@ -132,4 +127,13 @@ i {
 .btn:active {
   transform: translate(-50%, 3px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.dice {
+  position: absolute;
+  left: 50%;
+  top: 15rem;
+  transform: translateX(-50%);
+  height: 10rem;
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.2);
 }
