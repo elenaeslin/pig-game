@@ -31,6 +31,7 @@ main {
   backdrop-filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   border-radius: 10px;
+  overflow: hidden;
 }
 .player {
   flex: 50%;
@@ -136,4 +137,16 @@ i {
   transform: translateX(-50%);
   height: 10rem;
   box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.2);
+}
+
+.hidden {
+  display: none;
+}
+
+.player--winner {
+  background-color: #2f2f2f;
+}
+.player--winner .name {
+  font-weight: bold;
+  color: #5c91af;
 }
